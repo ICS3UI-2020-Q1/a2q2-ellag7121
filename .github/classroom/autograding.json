@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Example",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "5\r\n3",
+      "output": "Please enter an integer:\r\nPlease enter another integer:\r\nThe biggest number is 5.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Same",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "5\r\n5",
+      "output": "Please enter an integer:\r\nPlease enter another integer:\r\nThere is no biggest number.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Negative",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "-3\r\n-5",
+      "output": "Please enter an integer:\r\nPlease enter another integer:\r\nThe biggest number is -3.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
